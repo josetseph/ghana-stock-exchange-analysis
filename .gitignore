@@ -38,13 +38,6 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# Data (if you want to exclude large files)
-# historical_data/*.csv
-
-# Charts (if generated)
-charts/*.html
-charts/*.png
-
 # Environment
 .env
 .venv
