@@ -92,47 +92,49 @@
 
 ## 4. Visualization Checks
 
-### ✅ All 9 Charts Exported Successfully
-1. **risk_return_scatter.html** (854 KB)
+### ✅ Charts Generated Successfully
+
+The notebook generates both static PNG images and interactive HTML charts:
+
+#### Static Images (for README display)
+1. **risk_return_scatter.png**
    - All stocks plotted correctly
    - Sharpe ratio represented by marker size
    - Color gradient by returns
    
-2. **correlation_heatmap.html** (2.1 MB)
+2. **efficient_frontier.png**
+   - 5,000 random portfolios plotted
+   - Max Sharpe and Min Vol portfolios highlighted
+   - Efficient frontier curve visible
+   
+3. **correlation_heatmap.png**
    - 24×24 matrix (correct dimension)
    - Diagonal = 1.0 (self-correlation verified)
    - Symmetric matrix (verified)
    
-3. **cumulative_returns.html** (4.7 MB)
+4. **cumulative_returns.png**
    - All stocks normalized to 100 at start
    - Time series continuity verified
    
-4. **sector_performance.html** (1.6 MB)
+5. **sector_performance.png**
    - 7 sectors displayed
    - Returns and volatility correctly separated
    
-5. **market_overview.html** (4.3 MB)
-   - Treemap correctly sized by market cap proxy
-   - Color correctly represents returns
-   
-6. **mtngh_candlestick.html** (5.2 MB)
-   - OHLC data correctly formatted
-   - Volume bars below price chart
-   
-7. **mtngh_bollinger_bands.html** (4.9 MB)
+6. **mtngh_bollinger_bands.png**
    - Price within bands
    - Bands calculated correctly
-   
-8. **mtngh_returns_distribution.html** (3.8 MB)
-   - Histogram + KDE overlay
-   - Normal distribution overlay for comparison
-   
-9. **efficient_frontier.html** (4.9 MB)
-   - 5,000 random portfolios plotted
-   - Max Sharpe and Min Vol portfolios highlighted
-   - Efficient frontier curve visible
 
-**Total Chart Size**: 47 MB
+#### Interactive HTML Charts (in /charts directory)
+9 interactive HTML files with full zoom, pan, and hover capabilities:
+- risk_return_scatter.html (854 KB)
+- correlation_heatmap.html (2.1 MB)
+- cumulative_returns.html (4.7 MB)
+- sector_performance.html (1.6 MB)
+- market_overview.html (4.3 MB)
+- mtngh_candlestick.html (5.2 MB)
+- mtngh_bollinger_bands.html (4.9 MB)
+- mtngh_returns_distribution.html (3.8 MB)
+- efficient_frontier.html (4.9 MB)
 
 ---
 

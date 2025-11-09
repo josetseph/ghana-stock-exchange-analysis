@@ -4,12 +4,12 @@ A comprehensive data analysis project providing insights into the Ghana Stock Ex
 
 ## 📊 Project Overview
 
-This repository contains interactive visualizations and quantitative analysis of stocks traded on the Ghana Stock Exchange. The analysis covers individual stock performance, market-wide trends, sector analysis, and portfolio theory metrics to help investors and researchers understand the GSE market dynamics.
+This repository contains visualizations and quantitative analysis of stocks traded on the Ghana Stock Exchange. The analysis covers individual stock performance, market-wide trends, sector analysis, and portfolio theory metrics to help investors and researchers understand the GSE market dynamics.
 
 ## 🎯 Key Features
 
 ### Individual Stock Analysis
-- **Candlestick Charts**: Interactive OHLC price visualization with volume
+- **Candlestick Charts**: OHLC price visualization with volume
 - **Bollinger Bands**: Volatility bands showing overbought/oversold conditions
 - **Technical Indicators**: RSI (Relative Strength Index), Money Flow Index
 - **Moving Averages**: 20-day, 50-day, and 200-day SMAs
@@ -43,7 +43,7 @@ This repository contains interactive visualizations and quantitative analysis of
 │   ├── MTNGH.csv
 │   └── ...
 ├── requirements.txt                   # Python dependencies
-└── charts/                           # Exported interactive visualizations
+└── images/                           # Static PNG images of key visualizations
 ```
 
 ## 🚀 Getting Started
@@ -57,8 +57,8 @@ This repository contains interactive visualizations and quantitative analysis of
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/josetseph/gse-analysis.git
-cd gse-analysis
+git clone https://github.com/josetseph/ghana-stock-exchange-analysis.git
+cd ghana-stock-exchange-analysis
 ```
 
 2. Install required packages:
@@ -181,16 +181,41 @@ The GSE stocks are categorized into sectors:
 - Sharpe Ratio: **-0.092**
 - **Insight**: Highly diversified portfolio suitable for ultra-conservative investors seeking capital preservation
 
-## 📊 Interactive Visualizations
+## 📊 Visualizations
 
-All charts are available as interactive HTML files in the `/charts` directory:
+### Risk-Return Analysis
+Identify optimal stocks based on risk-adjusted returns (Sharpe ratio):
 
-- **[Risk-Return Scatter](charts/risk_return_scatter.html)**: Visualize the risk/reward profile of all stocks
-- **[Correlation Heatmap](charts/correlation_heatmap.html)**: Understand which stocks move together
-- **[Cumulative Returns](charts/cumulative_returns.html)**: "Horse race" chart showing long-term winners
-- **[Sector Performance](charts/sector_performance.html)**: Compare industry returns and volatility
-- **[Market Overview](charts/market_overview.html)**: Market cap treemap
-- **[Sample Charts](charts/)**: Candlestick, Bollinger Bands, and distribution analyses
+![Risk-Return Scatter Plot](images/risk_return_scatter.png)
+
+### Portfolio Optimization - Efficient Frontier
+Modern Portfolio Theory analysis showing optimal portfolio allocations:
+
+![Efficient Frontier](images/efficient_frontier.png)
+
+### Market Correlations
+Understanding which stocks move together for better diversification:
+
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+### Cumulative Returns Comparison
+Long-term performance comparison across all GSE stocks:
+
+![Cumulative Returns](images/cumulative_returns.png)
+
+### Sector Performance Analysis
+Industry-level insights comparing returns and volatility:
+
+![Sector Performance](images/sector_performance.png)
+
+### Technical Analysis - Bollinger Bands
+Example technical analysis for MTNGH showing volatility bands:
+
+![Bollinger Bands](images/mtngh_bollinger_bands.png)
+
+---
+
+**📁 Additional Charts**: The notebook also generates additional interactive HTML charts in the [`/charts`](charts/) directory for detailed exploration with hover tooltips and zooming capabilities.
 
 
 
@@ -201,6 +226,10 @@ All charts are available as interactive HTML files in the `/charts` directory:
 2. **Duplicate Removal**: Duplicate dates removed (keeping most recent values)
 3. **Missing Values**: Forward-filled for up to 5 trading days
 4. **Returns Calculation**: Daily returns calculated using percentage change
+
+### Visualization
+- **Static Images**: Key charts exported as PNG images for README display
+- **Interactive HTML**: Full interactive versions available in `/charts` directory with zoom, pan, and hover capabilities
 
 ### Risk Metrics
 - **Annualized Return**: `Mean Daily Return × 252`
@@ -233,12 +262,12 @@ This project is open source and available under the MIT License.
 
 ## 👤 Author
 
-Your Name - [GitHub Profile](https://github.com/josetseph)
+Joseph Etse - [GitHub Profile](https://github.com/josetseph)
 
 ## 🙏 Acknowledgments
 
 - Ghana Stock Exchange for market data
-- Plotly for interactive visualization capabilities
+- Plotly for visualization capabilities
 - The Python data science community
 
 ## 📧 Contact

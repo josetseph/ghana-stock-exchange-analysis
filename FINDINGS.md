@@ -201,9 +201,9 @@ The analysis demonstrates that investors can construct well-balanced portfolios 
 
 ---
 
-## Interactive Visualizations
+## Visualizations
 
-All findings are supported by interactive charts available in the `/charts` directory:
+All findings are supported by static chart images available in the `/images` directory:
 - Risk-Return Scatter Plot
 - Correlation Heatmap
 - Efficient Frontier
