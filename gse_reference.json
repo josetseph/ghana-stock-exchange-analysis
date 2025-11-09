@@ -1,0 +1,343 @@
+{
+  "symbols": {
+    "ACCESS": {
+      "name": "Access Bank Ghana Plc",
+      "date_listed": "21/12/2022",
+      "market": "Main Market",
+      "stated_capital": "GHS400milliion",
+      "issued_shares": "118,093,134",
+      "authorised_shares": "173,947,596 ordinary shares"
+    },
+    "ADB": {
+      "name": "Agricultural Development Bank",
+      "date_listed": "12/12/2016",
+      "market": "Main Market"
+    },
+    "AGA": {
+      "name": "AngloGold Ashanti Plc",
+      "date_listed": "27/04/2004",
+      "market": "Main Market",
+      "stated_capital": "ZAR 4,899,021,716.98",
+      "issued_shares": "417,339,100 (Ordinary Shares)",
+      "authorised_shares": "600.000.000"
+    },
+    "ALW": {
+      "name": "Aluworks LTD",
+      "date_listed": "29/11/1996",
+      "market": "Main Market",
+      "issued_shares": "236,685,180 ordinary shares",
+      "authorised_shares": "1,000,000,000 ordinary shares"
+    },
+    "ASG": {
+      "name": "Asante Gold Corporation",
+      "date_listed": "29/06/2022",
+      "market": "Main Market",
+      "stated_capital": "C$ 20,366,275",
+      "issued_shares": "315.01"
+    },
+    "BOPP": {
+      "name": "Benso Oil Palm Plantation Ltd",
+      "date_listed": "16/04/2004",
+      "market": "Main Market",
+      "issued_shares": "34.8",
+      "authorised_shares": "50.000,000 SHARES OF NO PAR VALUE"
+    },
+    "CAL": {
+      "name": "CalBank PLC",
+      "date_listed": "05/11/2004",
+      "market": "Main Market",
+      "issued_shares": "548.26",
+      "authorised_shares": "1,000,000,000"
+    },
+    "CLYD": {
+      "name": "Clydestone (Ghana) Limited",
+      "date_listed": "19/05/2004",
+      "market": "Main Market",
+      "issued_shares": "34",
+      "authorised_shares": "100.000.000"
+    },
+    "CMLT": {
+      "name": "Camelot Ghana Ltd",
+      "date_listed": "17/09/1999",
+      "market": "Main Market",
+      "stated_capital": "GHS 217,467",
+      "issued_shares": "6.83",
+      "authorised_shares": "20,000,000"
+    },
+    "CPC": {
+      "name": "Cocoa Processing Company",
+      "date_listed": "14/02/2003",
+      "market": "Main Market",
+      "issued_shares": "2038.07",
+      "authorised_shares": "20.000.000.000"
+    },
+    "DASPHARMA": {
+      "name": "Dannex Ayrton Starwin Plc.",
+      "market": "Main Market"
+    },
+    "EGH": {
+      "name": "Ecobank Ghana PLC",
+      "date_listed": "13/07/2022",
+      "market": "Main Market",
+      "stated_capital": "GHS226.64MILLION",
+      "issued_shares": "293.23",
+      "authorised_shares": "500 MILLION"
+    },
+    "EGL": {
+      "name": "Enterprise Group PLC",
+      "market": "Main Market",
+      "stated_capital": "GHS258,886,100.00",
+      "issued_shares": "170,892,825.00",
+      "authorised_shares": "200 million"
+    },
+    "ETI": {
+      "name": "Ecobank Transnational Incorporation",
+      "date_listed": "11/09/2006",
+      "market": "Main Market",
+      "stated_capital": "US$867,714,000",
+      "issued_shares": "24067.75",
+      "authorised_shares": "800000000"
+    },
+    "FML": {
+      "name": "Fan Milk Limited",
+      "date_listed": "18/10/1991",
+      "market": "Main Market",
+      "issued_shares": "116.21",
+      "authorised_shares": "200,000,000"
+    },
+    "GCB": {
+      "name": "Ghana Commercial Bank Limited",
+      "date_listed": "17/05/1996",
+      "market": "Main Market",
+      "stated_capital": "GHC 72,000,000",
+      "issued_shares": "265",
+      "authorised_shares": "1,500,000,000"
+    },
+    "GGBL": {
+      "name": "Guinness Ghana Breweries Plc",
+      "date_listed": "23/08/1991",
+      "market": "Main Market",
+      "stated_capital": "GHS 272,879,113.44",
+      "issued_shares": "100"
+    },
+    "GOIL": {
+      "name": "GOIL PLC",
+      "date_listed": "16/11/2007",
+      "market": "Main Market",
+      "issued_shares": "391.86",
+      "authorised_shares": "1,000,000,000"
+    },
+    "MAC": {
+      "name": "Mega African Capital Limited",
+      "date_listed": "23/04/2014",
+      "market": "Main Market",
+      "issued_shares": "9.95"
+    },
+    "MTNGH": {
+      "name": "MTN Ghana",
+      "date_listed": "05/09/2018",
+      "market": "Main Market",
+      "stated_capital": "GHS1,363,000",
+      "authorised_shares": "100,000,000,000"
+    },
+    "PBC": {
+      "name": "Produce Buying Company Ltd.",
+      "date_listed": "17/05/2000",
+      "market": "Main Market",
+      "stated_capital": "GHC 4,914,377",
+      "issued_shares": "480",
+      "authorised_shares": "20,000,000,000"
+    },
+    "RBGH": {
+      "name": "Republic Bank (Ghana) PLC.",
+      "date_listed": "05/10/1994",
+      "market": "Main Market",
+      "stated_capital": "GHC 401,190,624",
+      "issued_shares": "851, 966, 373",
+      "authorised_shares": "1.000.000.000"
+    },
+    "SCB": {
+      "name": "Standard Chartered Bank Ghana Ltd.",
+      "market": "Main Market",
+      "issued_shares": "115.51 Ordinary Shares, 17.48 Pref. Shares",
+      "authorised_shares": "250 million- Ordinary"
+    },
+    "SCB PREF": {
+      "name": "Standard Chartered Bank Ghana PLC",
+      "market": "Main Market",
+      "issued_shares": "115.51 Ordinary Shares, 17.48 Pref. Shares",
+      "authorised_shares": "250 million- Ordinary"
+    },
+    "SIC": {
+      "name": "SIC Insurance Company Limited",
+      "date_listed": "25/01/2008",
+      "market": "Main Market",
+      "stated_capital": "GHC 2,500,000",
+      "issued_shares": "195.65",
+      "authorised_shares": "500.000.000"
+    },
+    "SOGEGH": {
+      "name": "Societe Generale Ghana Limited",
+      "date_listed": "13/10/1995",
+      "market": "Main Market",
+      "stated_capital": "GHC 62,393,557.80",
+      "issued_shares": "429.06",
+      "authorised_shares": "500 million"
+    },
+    "SWL": {
+      "name": "Sam Wood Ltd.",
+      "date_listed": "24/04/2002",
+      "market": "Main Market",
+      "stated_capital": "GHC 220,990",
+      "issued_shares": "21.83",
+      "authorised_shares": "100.000.000"
+    },
+    "TBL": {
+      "name": "Trust Bank Limited (THE GAMBIA)",
+      "date_listed": "15/11/2002",
+      "market": "Main Market",
+      "stated_capital": "DALASIS 200,000,000",
+      "issued_shares": "22.75",
+      "authorised_shares": "200,000,000"
+    },
+    "TLW": {
+      "name": "Tullow Oil Plc",
+      "date_listed": "27/07/2011",
+      "market": "Main Market",
+      "stated_capital": "GBP 144,728,808.8",
+      "issued_shares": "906.96"
+    },
+    "TOTAL": {
+      "name": "TotalEnergies Ghana PLC",
+      "market": "Main Market",
+      "stated_capital": "51,222,715.01",
+      "issued_shares": "111,874,072",
+      "authorised_shares": "111,874,072"
+    },
+    "UNIL": {
+      "name": "Unilever Ghana PLC",
+      "market": "Main Market",
+      "issued_shares": "62.5",
+      "authorised_shares": "100 million"
+    },
+    "ALLGH": {
+      "name": "Atlantic Lithium Limited",
+      "date_listed": "13/05/2024",
+      "market": "Main Market",
+      "stated_capital": "AUD$ 129,873,021",
+      "issued_shares": "649,669,053"
+    },
+    "DIGICUT": {
+      "name": "Digicut Advertising and Production Limited",
+      "date_listed": "11/04/2018",
+      "market": "Ghana Alternative Market",
+      "stated_capital": "GHC 250,000",
+      "issued_shares": "118.89 million",
+      "authorised_shares": "500,000,000"
+    },
+    "HORDS": {
+      "name": "HORDS LTD",
+      "market": "Ghana Alternative Market",
+      "issued_shares": "114.95"
+    },
+    "IIL": {
+      "name": "Intravenous Infusions PLC",
+      "date_listed": "15/12/2015",
+      "market": "Ghana Alternative Market",
+      "stated_capital": "GHS 11.62 million",
+      "issued_shares": "258.82 million",
+      "authorised_shares": "50 billion"
+    },
+    "MMH": {
+      "name": "Meridian-Marshalls Holdings",
+      "market": "Ghana Alternative Market",
+      "issued_shares": "96.08"
+    },
+    "SAMBA": {
+      "name": "Samba Foods Ltd",
+      "market": "Ghana Alternative Market",
+      "stated_capital": "250000",
+      "issued_shares": "5.98"
+    },
+    "GLD": {
+      "name": "NewGold Issuer Ltd.",
+      "date_listed": "23/08/1991",
+      "market": "Exchange Traded Funds",
+      "issued_shares": "2.9 million"
+    }
+  },
+  "metadata": {
+    "last_updated": "2023",
+    "markets": {
+      "Main Market": {
+        "description": "The main equity market of the Ghana Stock Exchange"
+      },
+      "Ghana Alternative Market": {
+        "description": "The alternative market for SMEs"
+      },
+      "Exchange Traded Funds": {
+        "description": "Market for exchange-traded funds"
+      },
+      "Ghana Fixed Income Market": {
+        "description": "Market for fixed income securities"
+      }
+    }
+  },
+  "bond_issuers": {
+    "Izwe Savings and Loans Plc": {
+      "tranches": 15,
+      "amount_raised": "206.89",
+      "shelf_registration": "150"
+    },
+    "Letshego Ghana Plc": {
+      "tranches": 27,
+      "amount_raised": "298.69",
+      "shelf_registration": "300"
+    },
+    "Edendale Properties Plc": {
+      "tranches": 5,
+      "amount_raised": "34.15",
+      "shelf_registration": "50"
+    },
+    "Bayport Savings and Loans Plc": {
+      "tranches": 14,
+      "amount_raised": "424.99",
+      "shelf_registration": "500"
+    },
+    "Ghana Home Loans Plc": {
+      "tranches": 2,
+      "amount_raised": "19.00",
+      "shelf_registration": "380"
+    },
+    "PBC Plc": {
+      "tranches": 4,
+      "amount_raised": "362.30",
+      "shelf_registration": "400"
+    },
+    "ESLA Plc": {
+      "tranches": 6,
+      "amount_raised": "8,374.54",
+      "shelf_registration": "10,000"
+    },
+    "Bond Savings & Loans Plc": {
+      "tranches": 18,
+      "amount_raised": "70.40",
+      "shelf_registration": "100"
+    },
+    "Quantum Terminal Plc": {
+      "tranches": 1,
+      "amount_raised": "45.00",
+      "shelf_registration": "140"
+    },
+    "Dalex Finance Company Plc": {
+      "tranches": 1,
+      "amount_raised": "20.00",
+      "shelf_registration": "150"
+    },
+    "Daakye Trust Plc": {
+      "tranches": 3,
+      "amount_raised": "2,622.53",
+      "shelf_registration": "5,500"
+    }
+  }
+}
