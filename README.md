@@ -9,9 +9,8 @@ This repository contains visualizations and quantitative analysis of stocks trad
 ## 🎯 Key Features
 
 ### Individual Stock Analysis
-- **Candlestick Charts**: OHLC price visualization with volume
 - **Bollinger Bands**: Volatility bands showing overbought/oversold conditions
-- **Technical Indicators**: RSI (Relative Strength Index), Money Flow Index
+- **Technical Indicators**: RSI (Relative Strength Index)
 - **Moving Averages**: 20-day, 50-day, and 200-day SMAs
 - **Returns Distribution**: Statistical analysis with skewness and kurtosis
 
@@ -218,6 +217,22 @@ Example technical analysis for MTNGH showing volatility bands:
 **📁 Additional Charts**: The notebook also generates additional interactive HTML charts in the [`/charts`](charts/) directory for detailed exploration with hover tooltips and zooming capabilities.
 
 
+
+## ⚠️ Data Limitations
+
+**Important Note on High/Low Prices**: The "High" and "Low" columns in our dataset represent **yearly highs and lows**, not daily high/low prices within each trading day. This affects the following:
+
+### Impact on Analysis:
+- ✅ **Core Analysis Valid**: All primary analysis (returns, volatility, correlations, portfolio optimization, risk metrics, beta calculations) uses **Close prices only** and remains completely accurate
+- ✅ **Bollinger Bands**: Uses Close prices - **Valid**
+- ✅ **RSI (Relative Strength Index)**: Uses Close prices - **Valid**  
+- ❌ **Candlestick Charts**: Not included - would require daily OHLC data
+- ❌ **Money Flow Index (MFI)**: Not included - requires daily high/low prices
+
+### Why This Matters:
+Traditional candlestick charts and certain technical indicators (like MFI) require actual daily high/low prices to accurately represent intraday price action. Using yearly high/low values would produce misleading visualizations and calculations. Our analysis focuses on closing prices and derived metrics, which provide robust insights into stock performance, risk, and correlations.
+
+---
 
 ## 📝 Methodology
 

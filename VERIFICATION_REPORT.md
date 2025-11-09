@@ -83,10 +83,9 @@
 - **Calculation**: RS = Avg Gain / Avg Loss, RSI = 100 - (100/(1+RS))
 - **Range**: 0-100 (correctly bounded)
 
-### ✅ MFI (Money Flow Index)
-- **Period**: 14 days
-- **Incorporates**: Price and volume
-- **Range**: 0-100 (correctly bounded)
+### ❌ MFI (Money Flow Index) - Removed
+- **Reason**: Requires daily high/low prices, but GSE data contains yearly highs/lows
+- **Impact**: Would produce inaccurate momentum signals with yearly aggregates
 
 ---
 
@@ -125,16 +124,16 @@ The notebook generates both static PNG images and interactive HTML charts:
    - Bands calculated correctly
 
 #### Interactive HTML Charts (in /charts directory)
-9 interactive HTML files with full zoom, pan, and hover capabilities:
+7 interactive HTML files with full zoom, pan, and hover capabilities:
 - risk_return_scatter.html (854 KB)
 - correlation_heatmap.html (2.1 MB)
 - cumulative_returns.html (4.7 MB)
 - sector_performance.html (1.6 MB)
 - market_overview.html (4.3 MB)
-- mtngh_candlestick.html (5.2 MB)
 - mtngh_bollinger_bands.html (4.9 MB)
 - mtngh_returns_distribution.html (3.8 MB)
-- efficient_frontier.html (4.9 MB)
+
+**Note**: Candlestick charts not included - the High/Low columns in the GSE data represent yearly highs/lows, not daily OHLC values required for accurate candlestick visualization.
 
 ---
 

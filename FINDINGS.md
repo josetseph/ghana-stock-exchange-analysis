@@ -115,9 +115,10 @@ This comprehensive analysis of the Ghana Stock Exchange provides quantitative in
 - Trend indicators show cyclical patterns typical of emerging markets
 - Clear buy/sell signals identifiable in historical data
 
-### RSI & Money Flow Index:
+### RSI (Relative Strength Index):
 - Most stocks rarely reach extreme overbought (>70) or oversold (<30) levels
 - Indicates relatively efficient pricing in the market
+- **Note**: Money Flow Index (MFI) not calculated - requires daily high/low data, but GSE data contains yearly aggregates
 
 ---
 
